@@ -1,0 +1,41 @@
+<doctype HTML>
+<html>
+    <head>
+        <META charset="UTF-8">
+        <title> JAVA . SCRIPT </title>
+        <script>
+            //alert("Satan os visitará estas Navidades");//
+            function Saludar() {
+                var nombre="Petronilo";
+                var apellido="Luciaéz";
+                document.write('¿Qué tal? '+nombre+' '+apellido);
+                console.log(nombre);
+            }
+            
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="a" style="background-color: grey">
+                
+                <p onclick="this.style.color='red'; this.style.fontSize='3em';"> Hola Pollos </p>
+            </div>
+            <div class="b" style="background-color: whitesmoke">
+                
+                <p onmouseover="this.style.color='red'; this.style.filter='drop-shadow(5px 5px 5px)'; this.style.fontSize='1.5em'; this.innerHTML='Hello Peter your house is really awesome.'" onmouseout="this.style.color='black'; this.style.fontSize='1em';this.style.filter='drop-shadow(0px 0px 0px)'; this.innerHTML='Hola Pedro tu casa de divina de la muerte.'"> Bye My Friends </p>
+            </div>
+            <div class="c" style="background-color: wheat">
+                
+                <p> </p>
+            </div>
+            <div class="d" style="background-color: silver">
+                
+                <p> </p>
+            </div>
+        </div>
+        <p id="Salida"></p>
+        <button onclick="document.getElementById('Salida'). innerHTML='La hora es '+Date()+ ' Disfrutad del dia de hoy.';"> Ejecutar </button>
+        <p onmouseover="this.style.color='red'; this.style.filter='drop-shadow(5px 5px 5px)'; this.style.fontSize='1.5em'; this.innerHTML='Hello Peter your house is really awesome.'" onmouseout="this.style.color='black'; this.style.fontSize='1em';this.style.filter='drop-shadow(0px 0px 0px)'; this.innerHTML='Hola Pedro tu casa de divina de la muerte.'"> Hola Pedro tu casa de divina de la muerte. </p>
+        <button onclick="Saludar()"> Saludar </button>
+    </body>
+</html>
